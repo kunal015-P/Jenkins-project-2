@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "your-dockerhub-username/python-ci-app"
+        DOCKER_IMAGE = "kunal161/python-ci-app"
     }
 
     stages {
